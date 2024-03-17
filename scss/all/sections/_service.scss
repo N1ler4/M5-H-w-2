@@ -1,0 +1,62 @@
+#service {
+  margin-top: 146px;
+  position: relative;
+
+  h4 {
+    color: $color-brand;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+  }
+  h1 {
+    width: 742px;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1.6px;
+  }
+
+  .service-btn{
+    position: absolute;
+    right: 150px;
+    bottom: 20px;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-brand;
+    color: $color-brand;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 140px;
+    .card {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: start;
+      h3 {
+        color: $color-brand;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: -0.48px;
+      }
+      p{
+        width: 300px;
+        color: #3F3F3F;
+      }
+      a{
+        color: $color-black;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-color: #BDB0EC;
+        text-decoration-thickness: 1px;
+      }
+    }
+  }
+}

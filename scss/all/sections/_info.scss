@@ -1,0 +1,41 @@
+#info {
+  padding: 100px 300px;
+
+  h1 {
+    font-size: 62px;
+    width: 700px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 70px;
+
+    span {
+      color: $color-brand;
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      text-decoration-color: $color-brand;
+      text-decoration-thickness: 2px;
+    }
+  }
+
+  .info-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    button {
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+
+      &:nth-child(1) {
+        background: $color-brand;
+        color: $color-white;
+      }
+      &:nth-child(2) {
+        color: $color-black;
+      }
+    }
+  }
+}
