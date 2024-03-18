@@ -1,10 +1,22 @@
 // mixins for
 
-@mixin mixinName($bg, $color){
+@mixin mixinName($bg, $color) {
   background: $bg;
-  color:$color;
+  color: $color;
 }
 
+@mixin h4() {
+  background: transparent;
+  color: $color-brand;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
 
+@mixin h1($fs , $width , $fw , $color){
+  font-size: $fs;
+  width: $width;
+  font-weight: $fw;
+  color: $color;
+}
 // @include mixinName(red, white) // call to mixin
-

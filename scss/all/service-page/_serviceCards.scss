@@ -1,0 +1,38 @@
+.service-card {
+  padding: 88px;
+  &-flex {
+    max-width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-evenly;
+    color: $color-brand;
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      h1 {
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: -0.48px;
+      }
+      p {
+        width: 521px;
+        color: $color-black;
+      }
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        li{
+            width: 277px;
+        }
+      }
+    }
+  }
+}
+.img-order{
+  order: -1;
+}

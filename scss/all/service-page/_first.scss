@@ -1,0 +1,10 @@
+#first{
+    padding: 88px 160px;
+    background: $service-bg;
+    h4{
+        @include h4()
+    }
+    h1{
+        @include h1(40px,780px,500,$color-black)
+    }
+}
